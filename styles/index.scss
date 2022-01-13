@@ -38,6 +38,7 @@ h4 {
     display: flex;
     justify-content: space-evenly;
     margin-left: 40px;
+    margin-top: 30px;
 }
 
 .card {
@@ -48,4 +49,42 @@ h4 {
     background-color: rgb(255, 255, 255);
     width: 150px;
 }
-  
+
+.mainContent {
+    background-color: (255, 255, 255);
+    height: 500px;
+}
+
+.mainContent {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: solid 1px;
+    border-color: rgb(184, 183, 181);
+    height: 500px;
+    padding-top: 36px;
+    margin-bottom: 10px;
+    width: 1125px;
+    margin-left: 55px;
+
+    .filters {
+        margin-right: 40px;
+    }
+
+    input {
+        width: 300px;
+        height: 22px;
+    }
+
+    select {
+        width: 130px;
+        height: 28px;
+    }
+
+    input, select {
+        border-radius: 4px;
+        border-color: rgb(184, 183, 181);
+    }
+}
