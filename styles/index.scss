@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Oswald&family=The+Nautigal:wght@700&display=swap');
-$bgcolor: rgb(236, 236, 235);
+$bgcolor: rgb(238, 238, 238);
 
 body {
     background-color: $bgcolor;
@@ -8,6 +8,7 @@ body {
 
 header {
     margin: 50px;
+    margin-right: 90px;
 }
 
 .sales {
@@ -32,3 +33,19 @@ hr {
 h4 {
     padding-top: 100px;
 }
+
+.earnings {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 40px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 2px 60px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+}
+  
