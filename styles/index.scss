@@ -5,3 +5,30 @@ body {
     background-color: $bgcolor;
     font-family: 'Be Vietnam Pro', sans-serif;
 }
+
+header {
+    margin: 50px;
+}
+
+.sales {
+    float: left;
+    font-size: large;
+    font-weight: 800;
+    color:rgb(70, 70, 70);
+}
+
+ul {
+    list-style: none;
+}
+
+.options {
+    float: right;
+}
+
+hr {
+    margin-left: 40px;
+}
+
+h4 {
+    padding-top: 100px;
+}

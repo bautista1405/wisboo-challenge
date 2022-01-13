@@ -3,4 +3,31 @@ body {
   background-color: #ececeb;
   font-family: 'Be Vietnam Pro', sans-serif;
 }
+
+header {
+  margin: 50px;
+}
+
+.sales {
+  float: left;
+  font-size: large;
+  font-weight: 800;
+  color: #464646;
+}
+
+ul {
+  list-style: none;
+}
+
+.options {
+  float: right;
+}
+
+hr {
+  margin-left: 40px;
+}
+
+h4 {
+  padding-top: 100px;
+}
 /*# sourceMappingURL=index.css.map */
