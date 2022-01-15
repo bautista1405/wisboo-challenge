@@ -80,6 +80,15 @@ h4 {
   width: 150px;
 }
 
+.cardTitle {
+  color: #949494;
+  font-weight: 600;
+}
+
+.cardDate {
+  color: #c2c0c0;
+}
+
 .mainContent {
   display: flex;
   justify-content: space-between;
