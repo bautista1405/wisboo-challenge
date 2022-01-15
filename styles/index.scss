@@ -62,7 +62,7 @@ ul {
 
 }
 
-hr {
+#headerDivider {
     margin-left: 40px;
 }
 
@@ -94,11 +94,11 @@ h4 {
 
 .cardDate {
     color: rgb(194, 192, 192);
+    font-weight: 500;
+
 }
 
 .mainContent {
-    display: flex;
-    justify-content: space-between;
     background-color: #ffffff;
     margin-top: 30px;
     border-radius: 10px;
@@ -128,4 +128,33 @@ h4 {
         border-radius: 4px;
         border-color: rgb(184, 183, 181);
     }
+
+    .categories {
+        display: flex;
+        justify-content: space-around;
+        margin-right: 50px;
+        color:rgb(121, 121, 121);
+        font-weight: 100;
+    }
+
+    .salesData {
+        padding-left: 150px;
+    }
+}
+
+.dataDivider {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+table {
+    font-size: 12px;
+}
+
+.productOrder {
+    padding-left: 30px;
+}
+
+.tableData {
+    padding-left: 130px;
 }
