@@ -26,6 +26,42 @@ ul {
     float: right;
 }
 
+#btn {
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    font-family: Arial;
+    color: #616161;
+    font-size: 11px;
+    background: #ffffff;
+    padding: 7px 7px 7px 7px;
+    border: solid #c2c2c2 2px;
+    text-decoration: none;
+  
+  
+  .btn:hover {
+    text-decoration: none;
+  }
+
+}  
+
+#btn1 {
+    border-radius: 6px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #ffffff;
+    font-size: 11px;
+    background: #b32296;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    font-weight: 500;
+  
+  #btn:hover {
+    background: #b32296;
+    text-decoration: none;
+  }
+
+}
+
 hr {
     margin-left: 40px;
 }
@@ -37,8 +73,9 @@ h4 {
 .earnings {
     display: flex;
     justify-content: space-evenly;
-    margin-left: 40px;
     margin-top: 30px;
+    margin: 50px;
+    margin-right: 50px;
 }
 
 .card {
@@ -51,13 +88,8 @@ h4 {
 }
 
 .mainContent {
-    background-color: (255, 255, 255);
-    height: 500px;
-}
-
-.mainContent {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #ffffff;
     margin-top: 30px;
     border-radius: 10px;
@@ -65,16 +97,16 @@ h4 {
     border-color: rgb(184, 183, 181);
     height: 500px;
     padding-top: 36px;
-    margin-bottom: 10px;
-    width: 1125px;
-    margin-left: 55px;
+    margin-bottom: 50px;
+    width: 1180px;
+    margin-left: 77px;
 
     .filters {
         margin-right: 40px;
     }
 
     input {
-        width: 300px;
+        width: 340px;
         height: 22px;
     }
 
