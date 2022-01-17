@@ -113,7 +113,7 @@ h4 {
     border-radius: 10px;
     border: solid 1px;
     border-color: rgb(184, 183, 181);
-    height: 540px;
+    height: 460px;
     padding-top: 36px;
     margin-bottom: 50px;
     width: 1180px;
@@ -138,18 +138,6 @@ h4 {
         border-radius: 4px;
         border-color: rgb(184, 183, 181);
     }
-
-    .categories {
-        display: flex;
-        justify-content: space-between;
-        margin-right: 30px;
-        color:rgb(121, 121, 121);
-        font-weight: 100;
-    }
-
-    .salesData {
-        padding-right: 50px;
-    }
 }
 
 .dataDivider {
@@ -159,17 +147,67 @@ h4 {
 
 table {
     font-size: 12px;
+    width: 1100px;
+    margin-left: 30px;
 }
 
-.productOrder, .course {
-    padding-left: 30px;
+.course {
+    padding-right: 50px;
+}
+
+.categories {
+    font-weight: bold;
+    color: #666565;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    width: 1100px;
+}
+
+.salesData {
+    padding-left: 80px;
 }
 
 .productOrder {
-    color:rgb(41, 128, 199);
+    color:rgb(40, 177, 240);
     text-decoration: underline;
+    font-weight: bold;
+    padding-left: 30px;
 }
 
+#order {
+    padding-right: 0px;
+}
+
+.receipt {
+    background-color: rgb(181, 229, 252);
+    border-radius: 10px;
+    width: 95px;
+    text-align: center;
+}
+
+.payed {
+    background-color: rgb(185, 255, 221);
+    border-radius: 10px;
+    width: 95px;
+    text-align: center;
+}
+
+.pending {
+    background-color: rgb(238, 236, 236);
+    border-radius: 10px;
+    width: 95px;
+    text-align: center;
+}
+
+.rejected {
+    background-color: rgb(226, 164, 164);
+    border-radius: 10px;
+    width: 95px;
+    text-align: center;
+}
+
+
 .tableData {
-    padding-left: 130px;
+    padding-left: 115px;
 }

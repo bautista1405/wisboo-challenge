@@ -48,20 +48,21 @@ html
                 select 
                   option Medio de Pago
                 input(type='date')
-            div 
-              ul(class="categories") 
-                h5(class="order") # Orden &nbsp;
-                  span(class="icon-Filtrar")
-                h5(class="order") # Curso &nbsp;
-                  span(class="icon-Filtrar")
-                h5(class="salesData") Comprador &nbsp;
-                  span(class="icon-Filtrar")
-                h5(class="salesData") Fecha &nbsp;
-                  span(class="icon-Filtrar")
-                h5(class="salesData") Estado &nbsp;
-                  span(class="icon-Filtrar")
-                h5(class="salesData") Ganancias  &nbsp;
-                  span(class="icon-Filtrar")
+            div(class="categories")
+              table
+                tr
+                  td(id="order") # Orden &nbsp;
+                    span(class="icon-Filtrar")
+                  td(class="course") # Curso &nbsp;
+                    span(class="icon-Filtrar")
+                  td(class="salesData") Comprador &nbsp;
+                    span(class="icon-Filtrar")
+                  td(class="salesData") Fecha &nbsp;
+                    span(class="icon-Filtrar") 
+                  td(class="salesData") Estado &nbsp;
+                    span(class="icon-Filtrar")
+                  td(class="salesData") Ganancias  &nbsp;
+                    span(class="icon-Filtrar")
             hr(class="dataDivider")
             table 
               tr 
@@ -69,7 +70,7 @@ html
                 td(class="course") Baby Monitor Technology
                 td(class="tableData") Aaron Almaraz 
                 td(class="tableData") 19 Dec 2020
-                td(class="tableData") Comprobante
+                td(class="receipt") Comprobante 
                 td(class="tableData") USD $50 &nbsp; &nbsp;
                 td
                   span(class="icon-Menu-Tres-Puntos")
@@ -80,7 +81,7 @@ html
                 td(class="course") Baby Monitor Technology
                 td(class="tableData") Aaron Almaraz 
                 td(class="tableData") 19 Dec 2020
-                td(class="tableData") Comprobante
+                td(class="receipt") Comprobante 
                 td(class="tableData") USD $50  &nbsp; &nbsp;
                 td
                   span(class="icon-Menu-Tres-Puntos")
@@ -91,7 +92,7 @@ html
                 td(class="course") Baby Monitor Technology
                 td(class="tableData") Aaron Almaraz 
                 td(class="tableData") 19 Dec 2020
-                td(class="tableData") Comprobante
+                td(class="payed") Pagada
                 td(class="tableData") USD $50 &nbsp; &nbsp;
                 td
                   span(class="icon-Menu-Tres-Puntos")
@@ -102,7 +103,7 @@ html
                 td(class="course") Baby Monitor Technology
                 td(class="tableData") Aaron Almaraz 
                 td(class="tableData") 19 Dec 2020
-                td(class="tableData") Comprobante
+                td(class="pending") Pendiente
                 td(class="tableData") USD $50 &nbsp; &nbsp;
                 td
                   span(class="icon-Menu-Tres-Puntos")
@@ -113,7 +114,18 @@ html
                 td(class="course") Baby Monitor Technology
                 td(class="tableData") Aaron Almaraz 
                 td(class="tableData") 19 Dec 2020
-                td(class="tableData") Comprobante
+                td(class="payed") Pagada
+                td(class="tableData") USD $50 &nbsp; &nbsp;
+                td
+                  span(class="icon-Menu-Tres-Puntos")
+            hr(class="dataDivider")     
+            table      
+              tr 
+                td(class="productOrder") 10063-0021
+                td(class="course") Baby Monitor Technology
+                td(class="tableData") Aaron Almaraz 
+                td(class="tableData") 19 Dec 2020
+                td(class="rejected") Rechazada
                 td(class="tableData") USD $50 &nbsp; &nbsp;
                 td
                   span(class="icon-Menu-Tres-Puntos")
@@ -124,7 +136,7 @@ html
                 td(class="course") Baby Monitor Technology
                 td(class="tableData") Aaron Almaraz 
                 td(class="tableData") 19 Dec 2020
-                td(class="tableData") Comprobante
+                td(class="payed") Pagada
                 td(class="tableData") USD $50 &nbsp; &nbsp;
                 td
                   span(class="icon-Menu-Tres-Puntos")
@@ -135,7 +147,7 @@ html
                 td(class="course") Baby Monitor Technology
                 td(class="tableData") Aaron Almaraz 
                 td(class="tableData") 19 Dec 2020
-                td(class="tableData") Comprobante
+                td(class="payed") Pagada
                 td(class="tableData") USD $50 &nbsp; &nbsp;
                 td
                   span(class="icon-Menu-Tres-Puntos")
@@ -146,29 +158,7 @@ html
                 td(class="course") Baby Monitor Technology
                 td(class="tableData") Aaron Almaraz 
                 td(class="tableData") 19 Dec 2020
-                td(class="tableData") Comprobante
-                td(class="tableData") USD $50 &nbsp; &nbsp;
-                td
-                  span(class="icon-Menu-Tres-Puntos")
-            hr(class="dataDivider")    
-            table      
-              tr 
-                td(class="productOrder") 10063-0021
-                td(class="course") Baby Monitor Technology
-                td(class="tableData") Aaron Almaraz 
-                td(class="tableData") 19 Dec 2020
-                td(class="tableData") Comprobante
-                td(class="tableData") USD $50 &nbsp; &nbsp;
-                td
-                  span(class="icon-Menu-Tres-Puntos")
-            hr(class="dataDivider")    
-            table      
-              tr 
-                td(class="productOrder") 10063-0021
-                td(class="course") Baby Monitor Technology
-                td(class="tableData") Aaron Almaraz 
-                td(class="tableData") 19 Dec 2020
-                td(class="tableData") Comprobante
+                td(class="payed") Pagada
                 td(class="tableData") USD $50      &nbsp; &nbsp;  
                 td
                   span(class="icon-Menu-Tres-Puntos")                         

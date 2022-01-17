@@ -104,7 +104,7 @@ h4 {
   border-radius: 10px;
   border: solid 1px;
   border-color: #b8b7b5;
-  height: 540px;
+  height: 460px;
   padding-top: 36px;
   margin-bottom: 50px;
   width: 1180px;
@@ -126,16 +126,6 @@ h4 {
   border-radius: 4px;
   border-color: #b8b7b5;
 }
-.mainContent .categories {
-  display: flex;
-  justify-content: space-between;
-  margin-right: 30px;
-  color: #797979;
-  font-weight: 100;
-}
-.mainContent .salesData {
-  padding-right: 50px;
-}
 
 .dataDivider {
   margin-left: 30px;
@@ -144,17 +134,66 @@ h4 {
 
 table {
   font-size: 12px;
+  width: 1100px;
+  margin-left: 30px;
 }
 
-.productOrder, .course {
-  padding-left: 30px;
+.course {
+  padding-right: 50px;
+}
+
+.categories {
+  font-weight: bold;
+  color: #666565;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  width: 1100px;
+}
+
+.salesData {
+  padding-left: 80px;
 }
 
 .productOrder {
-  color: #2980c7;
+  color: #28b1f0;
   text-decoration: underline;
+  font-weight: bold;
+  padding-left: 30px;
+}
+
+#order {
+  padding-right: 0px;
+}
+
+.receipt {
+  background-color: #b5e5fc;
+  border-radius: 10px;
+  width: 95px;
+  text-align: center;
+}
+
+.payed {
+  background-color: #b9ffdd;
+  border-radius: 10px;
+  width: 95px;
+  text-align: center;
+}
+
+.pending {
+  background-color: #eeecec;
+  border-radius: 10px;
+  width: 95px;
+  text-align: center;
+}
+
+.rejected {
+  background-color: #e2a4a4;
+  border-radius: 10px;
+  width: 95px;
+  text-align: center;
 }
 
 .tableData {
-  padding-left: 130px;
+  padding-left: 115px;
 }
