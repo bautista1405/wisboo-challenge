@@ -39,6 +39,9 @@ ul {
 #btn .btn:hover {
   text-decoration: none;
 }
+#btn span {
+  font-weight: 700;
+}
 
 #btn1 {
   border-radius: 6px;
@@ -90,13 +93,18 @@ h4 {
   font-weight: 500;
 }
 
+.icon-Buscar {
+  position: absolute;
+  padding-left: 36px;
+}
+
 .mainContent {
   background-color: #ffffff;
   margin-top: 30px;
   border-radius: 10px;
   border: solid 1px;
   border-color: #b8b7b5;
-  height: 500px;
+  height: 540px;
   padding-top: 36px;
   margin-bottom: 50px;
   width: 1180px;
@@ -104,6 +112,7 @@ h4 {
 }
 .mainContent .filters {
   margin-right: 40px;
+  position: relative;
 }
 .mainContent input {
   width: 340px;
@@ -119,13 +128,13 @@ h4 {
 }
 .mainContent .categories {
   display: flex;
-  justify-content: space-around;
-  margin-right: 50px;
+  justify-content: space-between;
+  margin-right: 30px;
   color: #797979;
   font-weight: 100;
 }
 .mainContent .salesData {
-  padding-left: 150px;
+  padding-right: 50px;
 }
 
 .dataDivider {
@@ -137,8 +146,13 @@ table {
   font-size: 12px;
 }
 
-.productOrder {
+.productOrder, .course {
   padding-left: 30px;
+}
+
+.productOrder {
+  color: #2980c7;
+  text-decoration: underline;
 }
 
 .tableData {
