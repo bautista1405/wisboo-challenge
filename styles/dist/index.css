@@ -27,28 +27,31 @@ ul {
 #btn {
   -webkit-border-radius: 6;
   -moz-border-radius: 6;
-  border-radius: 6px;
+  border-radius: 3px;
   font-family: Arial;
   color: #616161;
   font-size: 11px;
   background: #ffffff;
   padding: 7px 7px 7px 7px;
-  border: solid #c2c2c2 2px;
+  border: solid #e7e7e7 2px;
   text-decoration: none;
 }
 #btn .btn:hover {
   text-decoration: none;
+  background: #666565;
+  color: #fff;
 }
 #btn span {
   font-weight: 700;
 }
 
 #btn1 {
-  border-radius: 6px;
+  border-radius: 3px;
+  border-color: transparent;
   font-family: "Be Vietnam Pro", sans-serif;
   color: #ffffff;
   font-size: 11px;
-  background: #b32296;
+  background: #bd169b;
   padding: 5px 5px 5px 5px;
   text-decoration: none;
   font-weight: 500;
@@ -95,7 +98,8 @@ h4 {
 
 .icon-Buscar {
   position: absolute;
-  padding-left: 36px;
+  padding-left: 295px;
+  margin-top: 11px;
 }
 
 .mainContent {
@@ -104,19 +108,18 @@ h4 {
   border-radius: 10px;
   border: solid 1px;
   border-color: #b8b7b5;
-  height: 460px;
+  height: 60vh;
   padding-top: 36px;
   margin-bottom: 50px;
   width: 1180px;
   margin-left: 77px;
 }
 .mainContent .filters {
-  margin-right: 40px;
-  position: relative;
+  margin-right: 10px;
 }
 .mainContent input {
-  width: 340px;
-  height: 22px;
+  width: 320px;
+  height: 26px;
 }
 .mainContent select {
   width: 130px;
@@ -125,45 +128,32 @@ h4 {
 .mainContent input, .mainContent select {
   border-radius: 4px;
   border-color: #b8b7b5;
+  margin: 0px 5px 0px 5px;
 }
 
 .dataDivider {
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+main {
+  font-size: 12px;
 }
 
 table {
-  font-size: 12px;
-  width: 1100px;
-  margin-left: 30px;
-}
-
-.course {
-  padding-right: 50px;
+  margin-left: 60px;
+  width: 167vh;
 }
 
 .categories {
   font-weight: bold;
   color: #666565;
-  display: flex;
-  justify-content: space-between;
-  margin-left: 30px;
-  width: 1100px;
-}
-
-.salesData {
-  padding-left: 80px;
 }
 
 .productOrder {
   color: #28b1f0;
   text-decoration: underline;
   font-weight: bold;
-  padding-left: 30px;
-}
-
-#order {
-  padding-right: 0px;
 }
 
 .receipt {
@@ -194,6 +184,76 @@ table {
   text-align: center;
 }
 
-.tableData {
-  padding-left: 115px;
+@media only screen and (min-width: 320px) {
+  body {
+    height: 50vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  header, .earnings {
+    display: block;
+    width: 50vw;
+  }
+
+  .card, ul {
+    margin-top: 10px;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mainContent {
+    width: 40vh;
+    height: 43vh;
+    margin-right: 70px;
+  }
+  .mainContent .categories, .mainContent table, .mainContent hr, .mainContent span {
+    display: none;
+  }
+  .mainContent input, .mainContent select {
+    width: 90%;
+    margin-top: 10px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  body {
+    max-width: 100px;
+  }
+
+  .earnings {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  .earnings .card {
+    width: 10vw;
+    height: 22vh;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .mainContent {
+    width: 100vw;
+    height: 25vh;
+    margin-right: 70px;
+  }
+  .mainContent .categories, .mainContent table, .mainContent hr, .mainContent span {
+    display: none;
+  }
+  .mainContent input, .mainContent select {
+    width: 80vw;
+    margin-top: 10px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  /* Styles here */
 }
