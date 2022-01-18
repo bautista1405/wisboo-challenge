@@ -11,6 +11,7 @@
 ### Tools:
 - Pug, a HTML preprocessor.
 - SCSS, a CSS preprocessor.
+- Wisboo's library icons.
 
 ## Running the project:
 - Clone the repository.
