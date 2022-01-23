@@ -204,33 +204,39 @@ table {
    and (max-width : 768px) {
    
 
-    body {
+   body {
+        width: 150px;
         height: 50vh;
         margin: 0px 100px 0 100px;
-        
     }
-    
-    header, .earnings {
-        width: 50vw;
-        display: inline;
-    }
+       
+   header {
+        display:flex;
+        width: 30%;
+  }
 
+  .earnings {
+     width: 50vw;
+     display: inline;
+  }
+       
     .card, ul {
         margin-top: 10px;
+        width: 50vw;
     }
 
     main {
         display: flex;
         justify-content: center;
-        width: 60vh;
     }
 
     .mainContent {
-        width: 40vh;
+        width: 65vw;
         height: 43vh;
-        margin-right: 200px;
+        overflow: auto;
+        margin: 0px 500px 0 0px;
 
-        .categories, table, hr, span {
+        span {
             display: none;
         }
 
